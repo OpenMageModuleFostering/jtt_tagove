@@ -44,34 +44,22 @@
 
 
                 <jtt_tagove translate="label">
-                    <label>Login With Tagove to access chat widget</label>
+                    <label>Add Tagove script code to access chat widget</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>2</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
-                        <tagove_email>
-                            <label>Email</label>
-                            <frontend_type>text</frontend_type>
+                        <tagove_widget_code>
+                            <label>Widget Script Code</label>
+                            <frontend_type>textarea</frontend_type>
                             <sort_order>1</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
-                            <comment>Tagove account email id.</comment>
-                        </tagove_email>
-                    </fields>
-
-                    <fields>
-                        <tagove_password>
-                            <label>Password</label>
-                            <frontend_type>password</frontend_type>
-                            <sort_order>2</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
-                            <comment>Tagove account password.</comment>
-                        </tagove_password>
+                            <comment><![CDATA[Paste your Tagove widget code here. Please check <a href="https://www.tagove.com/help-docs/" target="_blank">here</a> and <b>Widget configuration</b>.]]></comment>
+                        </tagove_widget_code>
                     </fields>
                 </jtt_tagove>
             </groups>
