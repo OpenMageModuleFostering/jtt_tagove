@@ -11,8 +11,8 @@
 /**
  * JTTTagove Page Block
  */
-//define('TAGOVE_URL','app.tagove.com');
-define('TAGOVE_URL','surendra.dev.tagove.com');
+define('TAGOVE_URL','app.tagove.com');
+//define('TAGOVE_URL','surendra.dev.tagove.com');
 class JTT_Tagove_Block_Script extends Mage_Core_Block_Template
 {
     /**
