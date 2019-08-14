@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>JTT_Tagove</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -42,9 +42,9 @@ Check your operator console on your web browser, log into &lt;a href="http://app
 For questions and suggestions, please use the contact form on the &lt;a href="http://www.tagove.com/contact/"&gt;contact page&lt;/a&gt;.</description>
     <notes>Tagove will help you cut the waiting time for phone calls to reach out your customers.</notes>
     <authors><author><name>Tagove Chat</name><user>tagove</user><email>info@tagove.com</email></author></authors>
-    <date>2015-11-04</date>
-    <time>09:44:01</time>
-    <contents><target name="magecommunity"><dir name="JTT"><dir name="Tagove"><dir name="Block"><file name="Script.php" hash="150e92e6ac24b9638a599e4e1b55c5f5"/></dir><dir name="Helper"><file name="Data.php" hash="604d07874db4b308cacfd06418bb1ebb"/></dir><dir name="etc"><file name="config.xml" hash="130ce3527950e75d0741d0955fc5fe00"/><file name="system.xml" hash="cd6cf1a28fa51c39e123a25e958a7187"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JTT_Tagove.xml" hash="cc525e36507cb0812fa74d675be110d9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="tagove.xml" hash="ba4882b68e602687ee6b9a945c8e4f42"/></dir><dir name="template"><dir name="tagove"><file name="main.phtml" hash="0e0e8614e5da928e3be11989097a00b0"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2016-01-16</date>
+    <time>15:45:09</time>
+    <contents><target name="magecommunity"><dir name="JTT"><dir name="Tagove"><dir name="Block"><file name="Script.php" hash="76b246dcf4c4a252b822207aff789d1b"/></dir><dir name="Helper"><file name="Data.php" hash="604d07874db4b308cacfd06418bb1ebb"/></dir><dir name="etc"><file name="config.xml" hash="130ce3527950e75d0741d0955fc5fe00"/><file name="system.xml" hash="cd6cf1a28fa51c39e123a25e958a7187"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JTT_Tagove.xml" hash="cc525e36507cb0812fa74d675be110d9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="tagove.xml" hash="ba4882b68e602687ee6b9a945c8e4f42"/></dir><dir name="template"><dir name="tagove"><file name="main.phtml" hash="0e0e8614e5da928e3be11989097a00b0"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

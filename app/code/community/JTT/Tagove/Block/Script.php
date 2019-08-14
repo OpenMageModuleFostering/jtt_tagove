@@ -21,24 +21,28 @@ class JTT_Tagove_Block_Script extends Mage_Core_Block_Template
      */
     private function getPostUrlContents($url,$data){
 
+
+
         if(function_exists('curl_init')){
             $ch = curl_init();
 
             // define options
             $optArray = array(
-                CURLOPT_URL => 'http://'.TAGOVE_URL.'/'.$url,
+                CURLOPT_URL => 'https://'.TAGOVE_URL.'/'.$url,
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_POSTFIELDS =>1,
+                CURLOPT_SSL_VERIFYPEER => false,
                 CURLOPT_POSTFIELDS=>http_build_query($data)
             );
 
             curl_setopt_array($ch, $optArray);
 
             $result = curl_exec($ch);
+
             return $result;
         } else {
 
-            return file_get_contents('http://'.TAGOVE_URL.'/'.$url,false,stream_context_create(array(
+            return file_get_contents('https://'.TAGOVE_URL.'/'.$url,false,stream_context_create(array(
                 'http' => array(
                     'method'  => 'POST',
                     'header'  => 'Content-type: application/x-www-form-urlencoded',
@@ -59,11 +63,12 @@ class JTT_Tagove_Block_Script extends Mage_Core_Block_Template
             $tagove_password = Mage::getStoreConfig('tagove_options/jtt_tagove/tagove_password');
 
             $result = $this->getPostUrlContents('user/login',array(
-                'api'=>'true',
-                'Login'=>'Login',
+                'v2' => true,
                 'Email'=>$tagove_email,
                 'Password'=>$tagove_password,
             ));
+
+
 
             if(stripos($result, 'error') !== false)
             {
@@ -73,15 +78,7 @@ class JTT_Tagove_Block_Script extends Mage_Core_Block_Template
             else {
 
 
-                $chat_script = "<script type='text/javascript'>
-                    (function() {
-                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                    var refferer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
-                    var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
-                    po.src = '//".TAGOVE_URL."/chat/getstatus/(site_uid)/$result/?r='+refferer+'&l='+location;
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                    })();</script>";
-                //  $chat_code;//die;
+                $chat_script = $result;
 
 
                 return $chat_script;
