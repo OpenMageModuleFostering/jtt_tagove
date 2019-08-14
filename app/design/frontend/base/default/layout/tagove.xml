@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * JTT_Tagove extension for Magento
+ *
+ * @package     JTT_Tagove
+ * @author      Raju Jangid (http://www.justtotaltech.co.uk/)
+ * @copyright   Copyright (c) 2015 Just Total Tech (http://www.justtotaltech.co.uk/)
+ * @license     Open Source License (OSL)
+ */
+ -->
+<layout>
+    <default>
+        <reference name="before_body_end">
+            <block type="tagove/script" name="tagove_script" template="tagove/main.phtml" after="-" />
+        </reference>
+    </default>
+</layout>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<package>
+    <name>JTT_Tagove</name>
+    <version>1.0.4</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Tagove will help you cut the waiting time for phone calls to reach out your customers.</summary>
+    <description>Tagove - Live Chat Software extensions to support your customers. It's a unique platform for businesses to Maximise the sales with our Live Video, Voice and Text Chat software integrated Co-browsing and Screen sharing features with your website.&#xD;
+&lt;br /&gt;&lt;br /&gt;&#xD;
+&lt;h2&gt;Features&lt;/h2&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Enable/disable chat from backend.&lt;/li&gt;&#xD;
+&lt;li&gt;If admin is not available end user can leave a message.&lt;/li&gt;&#xD;
+&lt;li&gt;No need to refresh page. Real-time, one-on-one personal user/prospect/customer/shopper assistance. End users can see a product up close.&lt;/li&gt;&#xD;
+&lt;li&gt;Easy setup require only credential of tagove account .&lt;/li&gt;&#xD;
+&lt;li&gt;Personal Interaction with customer&lt;/li&gt;&#xD;
+&lt;li&gt;One Click Chat and Support All Platform&lt;/li&gt;&#xD;
+&lt;li&gt;Video Audio and Text Chat&lt;/li&gt;&#xD;
+&lt;li&gt;Analytics of website visitor &lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;h2&gt;Reqirements&lt;/h2&gt;&#xD;
+&lt;p&gt;Just install the extension and you are all set! No additional setup required. After extension installation, one-step tagove account creation and add credential of tagove in magento system config you are instantly online and can provide support for your customers.&lt;/p&gt;&#xD;
+&lt;h2&gt;How to install Tagove - Live Chat Software extension for Magento?&lt;/h2&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;To start with extension  installation, please follow &lt;b&gt;System / Magento Connect / Magento Connect Manager&lt;/b&gt;.&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+You can either search for module via Magento Connect and paste extension key to install or upload the module package directly.&#xD;
+Tagove - Live Chat Software module will appear in the list of available extensions after the installation has been completed.&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+Log into your Tagove existing account or create a new one (Free) on &lt;a href="http://app.tagove.com/"&gt;app.tagove.com&lt;/a&gt;.&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;To proceed with integration, click &lt;b&gt;'Sysytem / Configuration'&lt;/b&gt; link in your admin panel menu and choose &lt;b&gt;Tagove &amp;gt; Setting&lt;/b&gt; from left tab.&lt;/li&gt;&#xD;
+&#xD;
+&lt;li&gt;Make sure &lt;b&gt;'Enabled'&lt;/b&gt; checkbox is checked in Status block, then enter your tagove account credential in block &lt;b&gt;Login With Tagove to access chat widget&lt;/b&gt; and click &lt;b&gt;'Save Config'&lt;/b&gt; to activate.&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+Check your operator console on your web browser, log into &lt;a href="http://app.tagove.com/"&gt;Tagove App&lt;/a&gt; it using your credentials to appear online and start accepting chat requests.&#xD;
+&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+For questions and suggestions, please use the contact form on the &lt;a href="http://www.tagove.com/contact/"&gt;contact page&lt;/a&gt;.</description>
+    <notes>Tagove will help you cut the waiting time for phone calls to reach out your customers.</notes>
+    <authors><author><name>Tagove Chat</name><user>tagove</user><email>info@tagove.com</email></author></authors>
+    <date>2015-11-04</date>
+    <time>09:44:01</time>
+    <contents><target name="magecommunity"><dir name="JTT"><dir name="Tagove"><dir name="Block"><file name="Script.php" hash="150e92e6ac24b9638a599e4e1b55c5f5"/></dir><dir name="Helper"><file name="Data.php" hash="604d07874db4b308cacfd06418bb1ebb"/></dir><dir name="etc"><file name="config.xml" hash="130ce3527950e75d0741d0955fc5fe00"/><file name="system.xml" hash="cd6cf1a28fa51c39e123a25e958a7187"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="JTT_Tagove.xml" hash="cc525e36507cb0812fa74d675be110d9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="tagove.xml" hash="ba4882b68e602687ee6b9a945c8e4f42"/></dir><dir name="template"><dir name="tagove"><file name="main.phtml" hash="0e0e8614e5da928e3be11989097a00b0"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

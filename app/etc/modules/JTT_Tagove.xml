@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JTT_Tagove>
+            <active>true</active>
+            <codePool>community</codePool>
+        </JTT_Tagove>
+    </modules>
+</config>

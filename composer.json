@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/JTT_Tagove",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Tagove will help you cut the waiting time for phone calls to reach out your customers.",
+    "authors": [
+    {
+        "name": "Tagove Chat",
+        "email": "info@tagove.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
