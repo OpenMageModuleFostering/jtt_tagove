@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/JTT_Tagove",
+    "name": "OpenMageModuleFostering\/JTT_Tagove",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Live chat software that provide video chat, voice call, text chat with co browsing and screen sharing feature",
     "authors": [
-    {
-        "name": "Raju Jangid",
-        "email": "rajuj6@gmail.com"
-    }
-],
+        {
+            "name": "Raju Jangid",
+            "email": "rajuj6@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
